@@ -1,0 +1,48 @@
+.logo-wrapper {
+    margin: 5px 20px;
+}
+nav#main-nav {
+    width: 300px;
+    height: 100%;
+    background: #231F20;
+}
+nav#main-nav .section-heading {
+    width: 100%;
+    font-size: 85%;
+    text-transform: uppercase;
+    color: #777;
+    text-align: center;
+    padding: 25px 0 15px 0;
+}
+nav#main-nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav#main-nav ul li {
+    list-style: none;
+    border-bottom: 1px solid #222d32;
+    font-weight: bold;
+    font-size: 85%;
+
+    box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.2),inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.2),inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.2),inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.2),inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+
+    border-bottom: 1px solid #333;
+}
+nav#main-nav ul li:hover > a {
+    color: #BF002D;
+    padding-left: 50px;
+    background-color: #111;
+    border-left: 3px solid #BF002D;
+}
+nav#main-nav ul li a {
+    display: block;
+    color: #ccc;
+    padding: 10px 25px;
+}
+nav#main-nav ul li a i {
+    margin: 0 15px 0 0;
+    font-size: 130%;
+}

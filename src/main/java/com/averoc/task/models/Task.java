@@ -21,4 +21,12 @@ public class Task {
     public void setBurnedPoints(Long burnedPoints) {
         this.burnedPoints = burnedPoints;
     }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "taskName='" + taskName + '\'' +
+                ", burnedPoints=" + burnedPoints +
+                '}';
+    }
 }

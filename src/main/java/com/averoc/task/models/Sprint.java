@@ -41,4 +41,13 @@ public class Sprint {
     public void setSprintTasks(List<Task> sprintTasks) {
         this.sprintTasks = sprintTasks;
     }
+
+    @Override
+    public String toString() {
+        return "Sprint{" +
+                "sprintWeekNumber=" + sprintWeekNumber +
+                ", sprintTasks=" + sprintTasks +
+                ", summarizedBurnedPoints=" + summarizedBurnedPoints +
+                '}';
+    }
 }

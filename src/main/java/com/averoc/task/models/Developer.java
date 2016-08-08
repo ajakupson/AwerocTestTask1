@@ -41,4 +41,12 @@ public class Developer extends Person implements Comparable<Developer>{
     public void setWeightedAverageOfBurnedStoryPoints(Float weightedAverageOfBurnedStoryPoints) {
         this.weightedAverageOfBurnedStoryPoints = weightedAverageOfBurnedStoryPoints;
     }
+
+    @Override
+    public String toString() {
+        return "Developer{" +
+                "developerSprints=" + developerSprints +
+                ", weightedAverageOfBurnedStoryPoints=" + weightedAverageOfBurnedStoryPoints +
+                '}';
+    }
 }
